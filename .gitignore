@@ -1,0 +1,50 @@
+# Dependencies & Heavy Directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Python Virtual Environments
+.venv/
+ml-service/.venv/
+venv/
+env/
+ENV/
+
+# Python Caches & Build Files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+ml-service/.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets (Do NOT push to GitHub)
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

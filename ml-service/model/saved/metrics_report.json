@@ -1,0 +1,50 @@
+{
+  "team_quality": {
+    "val": {
+      "accuracy": 0.9602,
+      "precision": 0.9855,
+      "recall": 0.9714,
+      "f1": 0.9784,
+      "auc": 0.983
+    },
+    "test": {
+      "accuracy": 0.9556,
+      "precision": 0.9716,
+      "recall": 0.9809,
+      "f1": 0.9762,
+      "auc": 0.9677
+    }
+  },
+  "task_assignment": {
+    "val": {
+      "accuracy": 0.9602,
+      "precision": 0.9763,
+      "recall": 0.981,
+      "f1": 0.9786,
+      "auc": 0.9869
+    },
+    "test": {
+      "accuracy": 0.9689,
+      "precision": 0.9676,
+      "recall": 1.0,
+      "f1": 0.9835,
+      "auc": 0.9734
+    }
+  },
+  "risk_detector": {
+    "val": {
+      "accuracy": 0.9115,
+      "precision": 0.4444,
+      "recall": 1.0,
+      "f1": 0.6154,
+      "auc": 0.9872
+    },
+    "test": {
+      "accuracy": 0.9156,
+      "precision": 0.4545,
+      "recall": 0.9375,
+      "f1": 0.6122,
+      "auc": 0.9701
+    }
+  }
+}
